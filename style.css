@@ -261,10 +261,10 @@ nav .link-icon{
     margin-bottom: 50px;
 }
 .run-content-title{
-    margin: 20px 0px;
+    margin: 20px 20px;
     flex-direction: column;
-    width: 50%;
     
+    width: 50%;
     
     
 }
@@ -359,7 +359,6 @@ thead td{
     font-size: 1rem;
     font-weight: 700;
     margin-top: 15px;
-    width: 50%;
     margin-bottom: 20px;
  }
  .calculate-bmi input{
@@ -537,7 +536,7 @@ hr{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     padding-bottom: 20px;
 }
 /* footer section end */
@@ -611,6 +610,7 @@ hr{
     }
     .run-content-title{
         width: calc(100% - 40px);
+        margin-left: 20px;
     }
     .run-content-image{
         margin: 0 auto;
