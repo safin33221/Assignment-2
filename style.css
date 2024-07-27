@@ -99,6 +99,9 @@ nav .link-icon{
     font-weight: 900;
     margin-bottom: 50px;
 }
+.content-title span{
+    
+}
 .fitness-content .content-title p{
     font-size: 1.2rem;
     font-weight: 400;
@@ -112,12 +115,7 @@ nav .link-icon{
 }
 
 .download-btn{
-    padding: 16px 40px;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 40px;
-    outline: none;
-    color: white; 
+    
     background: transparent;
     border: 2px solid white;
 }
@@ -442,7 +440,7 @@ thead td{
 }
 
 .team-section .image{
-    width: 320px;
+    width: calc(100% - 50px);
     height: 250px;
     margin: 10px;
     border: 2px solid rgb(0, 0, 0);
