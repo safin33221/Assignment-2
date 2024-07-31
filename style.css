@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 /* sheared class */
 *{
@@ -51,8 +52,13 @@ nav h1{
     color: rgb(230, 83, 60);
     font-weight: 800;
     font-size: 3rem;
-    
-    
+}
+
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size:7.5rem;                                    
+                                                
 }
 nav .link-items{
     width: 500px;
@@ -132,6 +138,7 @@ nav .link-icon{
     height: 80px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
+    text-align: center;
     display: flex;
     flex-direction: column;
     padding-left: 10px;
@@ -372,7 +379,7 @@ thead td{
  }
  .calculate-bmi select{
     
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.4);
     background-color: rgba(255, 255, 255, 0.1);
     
     border-radius: 8px;
@@ -396,6 +403,9 @@ thead td{
    gap: 20px;
    
    
+}
+#input6{
+    width: 200px;
 }
 
 /* input related style */
@@ -536,6 +546,7 @@ hr{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     font-size: 1rem;
+    letter-spacing: 2px;
     font-weight: 600;
     padding-bottom: 20px;
 }
@@ -670,11 +681,70 @@ hr{
     .footer-content,.about-us{
         flex-direction: column;
     }
+    .footer-content-title{
+        width: calc(100% - 10px);
+    }
     /* footer section end */
 }
-
+ 
+/* for mediam device */
 @media screen and (min-width:576px){
     nav .link-icon{
         display: none;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:776px){
+    /* fitness section */
+    nav{
+        justify-content: space-between;
+    }
+    nav h1{
+        font-size: 3rem;
+    }
+    nav .link-items{
+        width: 360px;
+        font-size: 16px;
+    }
+    .link-items li{
+        margin-right: 30px;
+    }
+    .link-items li a{
+        padding: 10px 0px;
+        
+    }
+    .link-items #home{
+        padding: 10px 20px;
+    }
+    .fitness-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+    /* habit section */
+    .card-items{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .run-content-title h1{
+        font-size: 1.8rem;
+    }
+    .run-content-title p{
+            font-size: 0.8rem;
+    }
+    /* BMI section */
+    .bmi-content{
+        flex-direction: column;
+    }
+
+    .team-content-image{
+        background-size: cover;
+    }
+
+    /* footer seciton */
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-content .about-us{
+        justify-content: start;
     }
 }
