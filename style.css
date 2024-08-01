@@ -54,14 +54,9 @@ nav h1{
     font-size: 3rem;
 }
 
-.shape{
-    font-family: 'Miama', sans-serif;
-    font-weight: 400;
-    font-size:7.5rem;                                    
-                                                
-}
+
 nav .link-items{
-    width: 500px;
+    width: 460px;
     height: 46px;
     padding-left: 10px;
     display: flex;
@@ -71,7 +66,7 @@ nav .link-items{
 }
 .link-items li{
     list-style: none;
-    margin-right: 47px;
+    margin-right: 30px;
 }
 .link-items li a{
     text-decoration: none;
@@ -85,6 +80,7 @@ nav .link-icon{
     color: rgb(255, 255, 255);
     font-size: 30px;
     margin-top: 10px;
+    margin-right: 20px;
 }
 #home{
     background-color: #e6533c;
@@ -104,10 +100,15 @@ nav .link-icon{
     color: white;
     font-weight: 900;
     margin-bottom: 50px;
+    line-height: 110%;
 }
-.content-title span{
-    
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size:7.5rem;                                    
+                                                
 }
+
 .fitness-content .content-title p{
     font-size: 1.2rem;
     font-weight: 400;
@@ -116,8 +117,6 @@ nav .link-icon{
 }
 .button-primariy{
     display: flex;
-    justify-content: space-evenly;
-    
 }
 
 .download-btn{
@@ -131,6 +130,7 @@ nav .link-icon{
     margin: 0 auto;
     width: 350px;
     height: 580px;
+    
 }
 .image .free-video{
     
@@ -326,7 +326,7 @@ nav .link-icon{
 .calculator-chart{
     
     margin-left: 30px;
-    margin-top: 30px;
+    margin-bottom: 30px;
     line-height: 2rem;
 }
 .calculator-chart h1{
