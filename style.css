@@ -15,13 +15,10 @@
 
 section{
     width: 100%;
-    
     margin: 0 auto;
-    /* border: 2px solid red; */
 }
 .container{
     width: calc(100% - 200px);
-    /* border: 2px solid blue; */
     margin: 0 auto;
 }
 .join-btn{
@@ -199,6 +196,75 @@ nav .link-icon{
    
 }
 /* fitness section end */
+
+
+/* unique seciton start */
+.unique-section{
+    background: black;
+    padding-bottom: 20px;
+}
+.unique-section .title{
+    text-align: center;
+    color: #e6533c;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    
+}
+.unique-section span{
+    color: blue;
+    font-family: 'Miama';
+    position: relative;
+    right: 145px;
+    top: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2.5rem;
+}
+.workout-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.workout-content{
+    width: 300px;
+    background: white;
+    height: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    border: 2px solid salmon;
+    transition: all 0.2s ease-in;
+    background-size: cover;
+    background-color: black;
+    opacity: 0.7;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.workout-content h1{
+    color: white;
+    font-size: 1.5rem;
+
+}
+.workout-content p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.8rem;
+}
+.workout1{
+    background-image: url("/images/workout1.jpg");
+}
+.workout2{
+    background-image: url("./images/workout2.jpg");
+}
+.workout3{
+    background-image: url("images/workout3.jpg");
+}
+.workout-content:hover{
+    transform: translateY(-25px);
+    box-shadow: 3px 3px 4px 0px  #e6533c;
+}
+/* unique seciton end */
 
 
 
@@ -608,6 +674,18 @@ hr{
         height: 75px;
     }
 
+    /* unique-section strat */
+    .workout-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .workout-content{
+        margin-top: 20px;
+    }
+    .workout-content:hover{
+        transform: none;
+    }
+    
 
     /* habits section */
     .card-items{
@@ -721,6 +799,14 @@ hr{
         flex-direction: column;
         gap: 50px;
     }
+    
+    .workout-content{
+        margin: 10px;
+    }
+    .workout-content:hover{
+        transform: none;
+    }
+    
     /* habit section */
     .card-items{
         grid-template-columns: repeat(2,1fr);
