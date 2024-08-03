@@ -236,7 +236,6 @@ nav .link-icon{
     background-size: cover;
     background-color: black;
     opacity: 0.7;
-    
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -252,13 +251,13 @@ nav .link-icon{
     font-size: 0.8rem;
 }
 .workout1{
-    background-image: url("/images/workout1.jpg");
+    background-image: url("./images/workout1.jpg");
 }
 .workout2{
     background-image: url("./images/workout2.jpg");
 }
 .workout3{
-    background-image: url("images/workout3.jpg");
+    background-image: url("./images/workout3.jpg");
 }
 .workout-content:hover{
     transform: translateY(-25px);
