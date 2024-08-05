@@ -239,6 +239,7 @@ nav .link-icon{
     display: flex;
     flex-direction: column;
     justify-content: end;
+    
 }
 
 .workout-content h1{
@@ -249,6 +250,9 @@ nav .link-icon{
 .workout-content p{
     color: rgba(255, 255, 255, 0.6);
     font-size: 0.8rem;
+}
+.workout-content h1,p{
+    margin-left: 19px;
 }
 .workout1{
     background-image: url("./images/workout1.jpg");
@@ -302,7 +306,7 @@ nav .link-icon{
 .habits-card{
     
     width: 220px;
-    height: 224px;
+    height: 235px;
     text-align: center;
 
 }
