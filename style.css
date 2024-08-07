@@ -20,7 +20,6 @@ section{
 .container{
     width: calc(100% - 200px);
     margin: 0 auto;
-    border: 2px solid salmon;
 }
 .join-btn{
     padding: 16px 40px;
@@ -252,7 +251,10 @@ nav .link-icon{
     color: rgba(255, 255, 255, 0.6);
     font-size: 0.8rem;
 }
-.workout-content h1,p{
+.unique-section .workout-content h1{
+    margin-left: 19px;
+}
+.unique-section .workout-content p{
     margin-left: 19px;
 }
 .workout1{
@@ -380,6 +382,7 @@ nav .link-icon{
 /* Traning and exercise section start */
 .traning{
     background: rgb(0, 0, 0);
+    padding-bottom: 50px;
 }
 
 .traning .content-title {
@@ -443,6 +446,25 @@ nav .link-icon{
 
 /* BMI  section start */
 .bmi-section{
+    background-color: black;
+}
+.bmi-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 60%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+.bmi-heading h1{
+    color: white;
+    font-size: 3rem;
+}
+.bmi-heading p{
+ color: rgba(255, 255, 255, 0.6);
+ font-size: 1rem;
+}
+.bmi-container{
     background: rgb(34, 34, 34);
 }
 .bmi-content{
@@ -508,10 +530,8 @@ thead td{
     font-size: 1.1rem;
  }
  .calculate-bmi select{
-    
     color: rgba(255, 255, 255, 0.4);
     background-color: rgba(255, 255, 255, 0.1);
-    
     border-radius: 8px;
     height: 35px;
     font-size: 1.1rem;
@@ -521,8 +541,8 @@ thead td{
  }
 
  .input5{
-    width: 600px;
-    margin-top: 20px;
+    width: calc(100%);
+    margin-top: 10px;
  }
 
 
@@ -530,7 +550,7 @@ thead td{
 .calculate-bmi-input .input-items{
    display: grid;
    grid-template-columns: repeat(2,1fr);
-   gap: 20px;
+   gap: 10px;
    
    
 }
@@ -801,25 +821,32 @@ hr{
 
 
     /* BMI section start*/
+    .bmi-heading{
+        width: calc(100% - 40px);
+    }
     .bmi-content{
         flex-direction: column;
         gap: 40px;
     }
+    .calculate-bmi-title{
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
     .calculator-chart{
         margin-left: 0px;
     }
-    .input5 {
+    /* .input5 {
         width: 94%;
-    }
-     .calculate-bmi-input .input-items{
-        grid-template-columns: repeat(2, 155px);
+    } */
+      .calculate-bmi-input .input-items{
+        grid-template-columns: repeat(2, 170px);
      }
      .calculate-bmi-input .input-items input{
-        width: 150px;
-     }
+        width: 165px;
+     } 
      .calculate-bmi-input .input-items select{
-        width: 155px;
-     }
+        width: 100%;
+     } 
      .calculate-bmi{
         width: 350px;
         margin-left: 0px;
@@ -857,6 +884,10 @@ hr{
 
 
 @media screen and (min-width:576px) and (max-width:776px){
+    .container{
+        width: calc(100% - 30px);
+        
+    }
     /* fitness section */
     nav{
         justify-content: space-between;
