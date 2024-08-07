@@ -20,6 +20,7 @@ section{
 .container{
     width: calc(100% - 200px);
     margin: 0 auto;
+    border: 2px solid salmon;
 }
 .join-btn{
     padding: 16px 40px;
@@ -376,6 +377,66 @@ nav .link-icon{
 
 
 
+/* Traning and exercise section start */
+.traning{
+    background: rgb(0, 0, 0);
+}
+
+.traning .content-title {
+    margin-left: 0px;
+    text-align: left;
+    width: calc(100% - 400px);
+    
+    
+}
+.traning .content-title h1{
+    font-size: 3rem;
+    color: white;
+}
+.traning .content-title p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.traning .img1{
+    background-image: url("./images/exercise1.jpg");
+    
+}
+.traning .img2{
+    background-image: url("./images/exercise2.png"); 
+}
+.traning .img3{
+    background-image: url("./images/exercise3.png");
+}
+.traning .img4{
+    background-image: url("./images/exercise4.png");
+}
+.traning .img5{
+    background-image: url("./images/exercise5.jpg");
+}
+.traning .img6{
+    background-image: url("./images/exercise6.jpg");
+}
+.traning .traning-content-img .row1 .img{
+    width:100%;
+    height: 215px;
+    background-size: cover;
+}
+.traning .traning-content-img .row2 .img{
+    width:100%;
+    height: 215px;
+    background-size: cover;
+}
+.traning .traning-content-img .row1{
+    display: grid;
+    grid-template-columns: 1.2fr 2.2fr 1.6fr;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 1.6fr 1.2fr 1.4fr
+}
+/* Traning and exercise section END */
+
+
 
 
 
@@ -386,7 +447,7 @@ nav .link-icon{
 }
 .bmi-content{
     display: flex;
-    gap: 100px;
+    gap: 60px;
     justify-items: center;
     align-items: center;
     padding: 50px 0px;
@@ -716,6 +777,25 @@ hr{
         justify-content: center;
         
         margin: 0 auto;
+    }
+
+    /* traning seciton start */
+    .traning .content-title{
+        width: calc(100% - 40px);
+    }
+    
+    .traning .img3,.img6{
+    display: none;
+    }
+    .traning .traning-content-img .row1{
+        grid-template-columns: 1.2fr 1fr;
+        background-size: cover;
+       
+    }
+    .traning .traning-content-img .row2{
+        grid-template-columns: 1fr 1.2fr;
+        background-size: cover;
+       
     }
     
 
