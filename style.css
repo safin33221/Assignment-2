@@ -402,22 +402,88 @@ nav .link-icon{
 }
 .traning .img1{
     background-image: url("./images/exercise1.jpg");
-    
+    background-color: rgba(6, 255, 210, 0.5);
+    background-blend-mode: overlay;
 }
+.traning .img1 h1{
+    position: relative;
+    top: 169px; 
+    left: 22px; 
+    font-size: 1rem;
+    color: white;
+}
+
+
+
 .traning .img2{
     background-image: url("./images/exercise2.png"); 
+    background-color: rgba(255, 0, 0, 0.3);
+    background-blend-mode: overlay;
 }
+.traning .img2 h1{
+    position: relative;
+    top: 29px; 
+    left: 29px; 
+    font-size: 1rem;
+    color: white;
+}
+
+
+
 .traning .img3{
     background-image: url("./images/exercise3.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
+.traning .img3 h1{
+    position: relative;
+    top: 169px; 
+    left: 22px; 
+    font-size: 1rem;
+    color: white;
+}
+
+
+
 .traning .img4{
     background-image: url("./images/exercise4.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
 }
+.traning .img4 h1{
+    position: relative;
+    top: 35px; 
+    left: 200px; 
+    font-size: 1rem;
+    color: white;
+}
+
+
 .traning .img5{
     background-image: url("./images/exercise5.jpg");
+    background-color: rgba(66, 255, 0, 0.3);
+    background-blend-mode: overlay;
 }
+.traning .img5 h1{
+    position: relative;
+    top: 169px; 
+    left: 22px; 
+    font-size: 1rem;
+    color: white;
+}
+
+
 .traning .img6{
     background-image: url("./images/exercise6.jpg");
+    background-color: rgba(0, 71, 255, 0.3);
+    background-blend-mode: overlay;
+}
+.traning .img6 h1{
+    position: relative;
+    top: 169px; 
+    left: 22px; 
+    font-size: 1rem;
+    color: white;
 }
 .traning .traning-content-img .row1 .img{
     width:100%;
