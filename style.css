@@ -350,7 +350,9 @@ nav .link-icon{
     height: 100%;
     display: flex;
     margin: 0 auto;
-    border-radius: 18px;  
+    border-radius: 18px; 
+    object-fit: none;
+    object-position: 60% 30%;
 }
 /* Habits section end */
 
@@ -528,6 +530,7 @@ thead td{
     color: rgb(255, 255, 255);
 }
 .calculate-bmi{
+    max-width: 550px;
     width: calc(100% - 20px);
     margin: 0 auto;
  }
@@ -544,7 +547,7 @@ thead td{
     margin-bottom: 20px;
  }
  .calculate-bmi input{
-    height: 30px;
+    height: 2.5rem;
     color: rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
@@ -557,11 +560,14 @@ thead td{
     color: rgba(255, 255, 255, 0.4);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-    height: 35px;
+    height: 2.6rem;
     font-size: 1.1rem;
     width: 100%;
     border: none;
     outline: none;
+ }
+ .calculate-bmi select option{
+    background-color: rgba(0, 0, 0, 0.8);
  }
  .input5{
     width: calc(100% - 20px);
@@ -573,6 +579,7 @@ thead td{
    gap: 10px;
    width: calc(100% - 20px);
 }
+
 /*      BMI  section end */
 
 
@@ -666,7 +673,7 @@ thead td{
 
 /*      footer section start */
 .footer-section{
-    background: black;
+    background: rgba(0, 0, 0, 0.9);
 }
 .footer-content{
     display: flex;
@@ -709,7 +716,7 @@ hr{
     font-size: 1rem;
     letter-spacing: 2px;
     font-weight: 600;
-    padding-bottom: 20px;
+    padding: 20px 0 20px 0px;
 }
 /*      footer section end */
 
@@ -831,9 +838,12 @@ hr{
         background-size: cover;
        
     }
+    .traning .img2{
+        object-fit: none;
+        object-position: 65% 28%;
+    }
     .traning .img2 h1{
         left: 5px;
-        
     }
     .traning .img4 h1{
         left: 20px;
