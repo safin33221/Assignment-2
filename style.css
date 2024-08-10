@@ -108,6 +108,7 @@ nav .link-icon{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 50px;
+    text-align: justify;
 }
 .button-primariy{
     display: flex;
@@ -286,6 +287,7 @@ nav .link-icon{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.80rem;
     font-weight: 400;
+    
 }
 .card-items{
     display: grid;
@@ -297,8 +299,9 @@ nav .link-icon{
 .habits-card{
     width: 220px;
     height: 235px;
-    text-align: center;
+    text-align:center;
 }
+
 .habits-card img{
     width: 140px;
     height: 140px;
@@ -312,7 +315,8 @@ nav .link-icon{
 .habits-card p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
-    font-weight: 400;  
+    font-weight: 400;
+    text-wrap: wrap;
 }
 .run-extra{
     display: flex;
@@ -339,6 +343,7 @@ nav .link-icon{
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 40px;
+    text-align: justify;
 }
 .run-content-image{
     margin: 35px 0px;
@@ -377,6 +382,7 @@ nav .link-icon{
 .traning .content-title p{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.6);
+    text-align: justify;
 }
 .traning .img1{
     background-image: url("./images/exercise1.jpg");
@@ -493,6 +499,7 @@ nav .link-icon{
 .bmi-heading p{
  color: rgba(255, 255, 255, 0.6);
  font-size: 1rem;
+ text-align: justify;
 }
 .bmi-container{
     background: rgb(34, 34, 34);
@@ -545,6 +552,7 @@ thead td{
     font-weight: 700;
     margin-top: 15px;
     margin-bottom: 20px;
+    text-align: justify;
  }
  .calculate-bmi input{
     height: 2.5rem;
@@ -690,6 +698,7 @@ thead td{
 .footer-content-title p{
     font-size: 1.3rem;
     color: rgba(255, 255, 255, 0.5);
+    text-align: justify;
 }
 .about-us{
     display: flex;
