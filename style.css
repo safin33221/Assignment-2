@@ -539,7 +539,7 @@ thead td{
 .calculate-bmi{
     max-width: 550px;
     width: calc(100% - 20px);
-    margin: 0 auto;
+    margin-left: auto;
  }
  .calculate-bmi-title h1{
     color: rgb(255, 255, 255);
